@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="21sp"
+        android:text="User Id -"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/email"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="21sp"
+        android:text="Email -"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:backgroundTint="@color/green"
+        android:layout_marginTop="50dp"
+        android:layout_gravity=""
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="29sp"
+        android:text="LOG OUT"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+
+        android:onClick="onLogout">
+
+    </Button>
+
+
+
+
+
+</LinearLayout>
